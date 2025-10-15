@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Compawnion",
+    "slug": "Compawnion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon_paw.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/Compawnion.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#A04747"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
